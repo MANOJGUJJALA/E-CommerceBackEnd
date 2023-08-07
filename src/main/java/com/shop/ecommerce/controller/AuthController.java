@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
@@ -43,6 +44,11 @@ public class AuthController {
         this.customUserDetails=customUserDetails;
     }
 
+
+    @GetMapping("/")
+    public String checking(){
+        return "Successfully Deployed !";
+    }
 
 
     @PostMapping("/signup")
