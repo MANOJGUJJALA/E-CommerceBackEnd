@@ -13,7 +13,7 @@ import java.util.List;
 
 
 
-@CrossOrigin(origins = "*")
+
 @RestController
 @RequestMapping("/api/admin/products")
 public class AdminProductController {
