@@ -13,19 +13,6 @@ public class ECommerceApplication {
 		SpringApplication.run(ECommerceApplication.class, args);
 	}
 
-	@Bean
-	public WebMvcConfigurer configurer(){
-	return  new WebMvcConfigurer() {
-		@Override
-		public void addCorsMappings(CorsRegistry registry) {
-			registry.addMapping("/**")
-					.allowedOrigins("https://fashion-finder.onrender.com")
-					.allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
-					.allowedHeaders("Authorization", "Content-Type")
-					.allowCredentials(true);
-		}
-	};
 
-	}
 
 }
