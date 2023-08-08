@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.*;
 
 
 
+@CrossOrigin(origins = "https://fashion-finder.onrender.com",maxAge = 3600)
 
 @RestController
 @RequestMapping("/auth")
@@ -45,12 +46,14 @@ public class AuthController {
     }
 
 
+    @CrossOrigin(origins = "https://fashion-finder.onrender.com")
     @GetMapping("/")
     public String checking(){
         return "Successfully Deployed !";
     }
 
 
+    @CrossOrigin(origins = "https://fashion-finder.onrender.com")
     @PostMapping("/signup")
     public ResponseEntity<AuthResponse> createUserHandler(@Valid @RequestBody User user) throws UserException {
 
