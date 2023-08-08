@@ -41,8 +41,7 @@ public class AppConfig {
                         cfg.setAllowedOrigins(Arrays.asList(
 
                                         "http://localhost:3000",
-                                        "http://localhost:4000",
-                                        "http://localhost:4200"
+                                "https://fashion-finder-backend.onrender.com"
 
 
                                 )
