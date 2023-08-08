@@ -21,7 +21,6 @@ F:\E-Commerce\back-end\src\main\java\com\shop\ecommerce\config\JwtConstant.java
 F:\E-Commerce\back-end\src\main\java\com\shop\ecommerce\modal\CartItem.java
 F:\E-Commerce\back-end\src\main\java\com\shop\ecommerce\repository\CartRepository.java
 F:\E-Commerce\back-end\src\main\java\com\shop\ecommerce\service\CartService.java
-F:\E-Commerce\back-end\src\main\java\com\shop\ecommerce\config\SecurityConfig.java
 F:\E-Commerce\back-end\src\main\java\com\shop\ecommerce\user\domain\UserRole.java
 F:\E-Commerce\back-end\src\main\java\com\shop\ecommerce\modal\Rating.java
 F:\E-Commerce\back-end\src\main\java\com\shop\ecommerce\repository\CategoryRepository.java
